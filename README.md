@@ -4,5 +4,5 @@ This app is made to complete Task #1 of Graduate Rotational Internship Program (
 In this Social Media Integration App, User can login with their social media accounts like  either with Facebook or Google and can get the user's basic information like Profile photo, Name, Email-id. After Login all the details of the users will be displayed on the next activity associated with it.
 
 IDE - Android Studio
-Language - Java
-Database - Firebase
+|| Language - Java
+|| Database - Firebase
