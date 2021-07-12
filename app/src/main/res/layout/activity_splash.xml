@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@drawable/bac"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+         tools:context=".splash">
+
+
+         <ImageView
+             android:layout_height="220dp"
+             android:layout_width="200dp"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="120dp"
+             android:src="@drawable/logo"
+             android:id="@+id/imagesplash"/>
+
+         <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_marginTop="46dp"
+             android:id="@+id/app_name"
+             android:textStyle="bold"
+             android:textColor="#10141B"
+             android:textSize="25dp"
+             android:layout_below="@+id/imagesplash"
+             android:textAllCaps="false"
+             android:text="SOCIAL MEDIA INTEGRATION"/>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#DC0B0A0A"
+        android:layout_marginBottom="280dp"
+        android:layout_alignParentBottom="true">
+
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginTop="10dp"
+                 android:id="@+id/designed"
+                 android:textStyle="italic"
+                 android:textColor="#090808"
+                 android:textSize="21sp"
+                 android:layout_below="@+id/imagesplash"
+                 android:text="Designed by Priyanshu Vaishnavi"
+                 android:layout_marginLeft="36dp"/>
+
+   </LinearLayout>
+
+             <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_centerHorizontal="false"
+                 android:layout_marginTop="275dp"
+                 android:id="@+id/intern"
+                 android:textStyle="italic"
+                 android:textColor="#090808"
+                 android:textSize="18sp"
+                 android:layout_below="@+id/imagesplash"
+                 android:text="(Intern @The Sparks Foundation)"
+                 android:layout_marginLeft="60dp"/>
+
+</RelativeLayout>
